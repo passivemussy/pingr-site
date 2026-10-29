@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pingr — privacy policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 48px 24px 96px; max-width: 720px;
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f4f1ea; color: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #16181b; color: #ececec; }
+    a { color: #6ea8ff; }
+    h2 { border-color: #3a3d42; }
+  }
+  a { color: #0b57d0; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 19px; margin: 40px 0 6px; padding-bottom: 6px; border-bottom: 1px solid #d8d8d8; }
+  p, li { margin: 10px 0; }
+  ul { padding-left: 20px; }
+  .updated { opacity: 0.7; font-size: 15px; margin-bottom: 32px; }
+  footer { margin-top: 56px; font-size: 14px; opacity: 0.7; }
+</style>
+</head>
+<body>
+
+<h1>privacy policy</h1>
+<p class="updated">Last updated 29 October 2026. This is a draft for a lawyer to read before public launch.</p>
+
+<p>
+  This policy says what pingr actually does with your information — not what it
+  would like to do. If something here does not match what you see in the app, the
+  address at the bottom is read by a human, and it is a bug.
+</p>
+
+<h2>Who can use it</h2>
+<p>
+  You must be 18 or older. One account per person, with your own Google account.
+  The details you give — your first name, age, gender, photo — must be true.
+</p>
+
+<h2>What we collect</h2>
+<ul>
+  <li><strong>Your Google account</strong> — to sign you in. We receive your account
+    identifier, email address and the name and photo on that account. We do not
+    receive your Google password, and we never see anything else in your Google
+    account.</li>
+  <li><strong>Your profile</strong> — first name, age, gender, an optional short
+    bio, and a photo if you add one. Other people see these, because they are how
+    somebody knows who they are meeting.</li>
+  <li><strong>Your location</strong> — while you use the app, to show what is near
+    you. The app stores an <em>approximate</em> point for each ping, about 300
+    metres off, and that is what everyone else sees. The exact point is stored
+    separately and is readable only by the host of that ping and the people the
+    host has accepted.</li>
+  <li><strong>What you post</strong> — pings, plans, join requests, chat messages,
+    and the quick answers (“on my way”, “i've arrived”).</li>
+  <li><strong>Reports and blocks</strong> — if you report or block somebody, so
+    that the block works and the report can be read.</li>
+  <li><strong>A notification token</strong> from your phone, if you allow
+    notifications. It is used to send you a push and nothing else.</li>
+</ul>
+
+<h2>What other people never see</h2>
+<ul>
+  <li><strong>Your phone number</strong>, if you add one. It is never shown to
+    another user, and it is not how you sign in.</li>
+  <li><strong>Your exact location</strong>, until you are accepted into a ping.</li>
+  <li><strong>Your email address.</strong></li>
+  <li><strong>Anyone you have blocked</strong>, and they cannot see you. This
+    applies to the map, plans, requests, chat and photos.</li>
+</ul>
+
+<h2>How long we keep it</h2>
+<ul>
+  <li><strong>Exact meeting points are deleted 30 days after the activity ends.</strong>
+    The blurred point stays, because the ping itself is part of a conversation
+    other people were in.</li>
+  <li><strong>Chat messages</strong> stay while the chat exists. A chat closes a few
+    hours after the activity, and its messages are readable by the people who
+    were in it.</li>
+  <li><strong>Your account and profile</strong> stay until you delete them.</li>
+  <li><strong>Reports</strong> are kept so that repeat behaviour can be seen.</li>
+</ul>
+
+<h2>Who we share it with</h2>
+<p>
+  Only the services that make the app work, and none of them for advertising:
+</p>
+<ul>
+  <li><strong>Supabase</strong> — the database, sign-in and file storage. Data is
+    held on their servers.</li>
+  <li><strong>Google</strong> — to sign you in, through Google's own sign-in
+    screen.</li>
+  <li><strong>Expo</strong> — to deliver a push notification to your phone.</li>
+</ul>
+<p>We do not sell your information. We do not show advertising. We do not share
+  your exact location with anybody you have not accepted.</p>
+
+<h2>Your choices</h2>
+<ul>
+  <li>Turn location off at any time in the phone's settings. The app then shows
+    Kathmandu rather than your position, and says so.</li>
+  <li>Turn notifications off without losing anything else.</li>
+  <li>Block or report anybody from a chat.</li>
+  <li><strong>Delete your account yourself</strong> — profile, then “delete my
+    account”. Your profile, photo, pings and messages go for good, and the chats
+    you were in keep their shape without your lines.
+    <a href="./delete-account.html">More about deleting your account.</a></li>
+  <li>If you cannot sign in, write to
+    <a href="mailto:hello@pingr.app">hello@pingr.app</a> and ask for the same
+    deletion. There is a person on the other end.</li>
+</ul>
+
+<h2>Permissions the app asks for</h2>
+<ul>
+  <li><strong>Location</strong> — to show what is happening near you.</li>
+  <li><strong>Photos</strong> — only when you choose a profile picture.</li>
+  <li><strong>Notifications</strong> — only if you allow them.</li>
+</ul>
+
+<h2>How we protect it</h2>
+<ul>
+  <li>Every rule about who can read what is enforced by the database itself, not
+    by the app, so a modified app cannot read more than a normal one.</li>
+  <li>Your saved sign-in on the phone is encrypted with a key held by the phone's
+    own keystore, and Android backups are switched off for the app.</li>
+  <li>Nobody at pingr looks at your chats in the ordinary course of things.
+    Reports are read by a person, because somebody has to read them for report
+    and block to mean anything.</li>
+</ul>
+
+<h2>Changes</h2>
+<p>
+  If this policy changes in a way that matters, the app will say so. Questions,
+  or a request to delete an account:
+  <a href="mailto:hello@pingr.app">hello@pingr.app</a>.
+</p>
+
+<footer>
+  <a href="./index.html">pingr</a> ·
+  <a href="./delete-account.html">deleting your account</a>
+</footer>
+
+</body>
+</html>
